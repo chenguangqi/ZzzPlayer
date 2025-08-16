@@ -74,10 +74,10 @@ const getTime = function (memoryVideo: string): string | null {
 </script>
 <template>
   <header>
-    <div class="main-content">
-      <!-- <img class="logo" src="./assets/logo.png" alt="" /> -->
-       <div>ZzzPlayer</div>
-       <div class="copyright">Copyright 2025-2100 By ChenGuangqi</div>
+    <img class="logo" src="./assets/my_logo.png" alt="" />
+    <div>
+      <div class="header-title">ZzzPlayer</div>
+      <div class="copyright">Copyright 2025-2100 By ChenGuangqi</div>
     </div>
   </header>
   <main>
@@ -99,7 +99,14 @@ const getTime = function (memoryVideo: string): string | null {
 header {
   height: 58px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
   background-color: var(--color-background-light);
+}
+
+.header-title {
+  /* height: 100%; */
+  color: #21c5e0
 }
 
 .main-content {
@@ -110,7 +117,9 @@ header {
 }
 
 .logo {
-  margin-top: 20px;
+  /* margin-top: 20px; */
+  width: 58px;
+  height: 58px;
 }
 
 .left-area {
