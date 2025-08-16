@@ -74,7 +74,7 @@ const getTime = function (memoryVideo: string): string | null {
 </script>
 <template>
   <header>
-    <img class="logo" src="./assets/my_logo.png" alt="" />
+    <img class="logo" src="./assets/ZzzPlayer128x128.png" alt="" />
     <div>
       <div class="header-title">ZzzPlayer</div>
       <div class="copyright">Copyright 2025-2100 By ChenGuangqi</div>
